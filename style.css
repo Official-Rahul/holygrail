@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.header {
+    flex: 1 1 1rem;
+    background-color: orange;
+}
+
+.footer {
+    flex: 1 1 1rem;
+    background-color: orange;
+}
+
+.main {
+    flex: 8 8 8rem;
+    display: flex;
+}
+
+.nav {
+    background-color: skyblue;
+    flex: 1 1 1rem;
+}
+
+.article {
+    background-color: whitesmoke;
+    flex: 4 4 4rem;
+}
+
+.aside {
+    background-color: skyblue;
+    flex: 1 1 1rem;
+}
